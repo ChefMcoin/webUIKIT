@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+$secondaryColor: rgba(228, 231, 236, 1);
+$primaryColor: rgba(14, 20, 34, 1);
+$listColor: rgba(71, 75, 87, 1);
+
+@mixin noPadding() {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin contentImg($width, $height) {
+  display: block;
+  max-width: $width;
+  height: $height;
+}
+
+* {
+  @include noPadding();
+}
+
+img {
+  @include contentImg(100%, auto);
+}
+.img-container img {
+  @include contentImg(100%, 98vh);
+}
+
+body {
+  background-color: $secondaryColor;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+  h1 {
+    color: $primaryColor;
+    font-size: 3rem;
+  }
+  li {
+    list-style: none;
+    padding-top: 10px;
+    color: $listColor;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+}
+
+.text-container img {
+  padding-top: 10px;
+}
+
+.img-container {
+  width: 60%;
+  height: 100vh;
+}

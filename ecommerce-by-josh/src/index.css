@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
   margin: 0;
@@ -22,18 +22,18 @@ body {
   font-family: "Manrope", sans-serif;
   background: rgba(228, 231, 236, 1);
   /* width: 100vw; */
-  height: 100vh;
-}
-
+/* height: 100vh; */
+/* } */
+/* 
 .container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  /* display: grid;
+  justify-content: space-between; */
+/* display: grid;
   grid-template-columns: repeat(2, 1fr); */
-}
+/* } */
 
-.text-container {
+/* .text-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,4 +61,4 @@ body {
 .img-container {
   width: 60%;
   height: 100vh;
-}
+}  */
